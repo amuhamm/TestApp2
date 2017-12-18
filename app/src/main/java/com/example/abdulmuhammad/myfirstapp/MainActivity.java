@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         final TextView myText = (TextView) findViewById(R.id.textview1);
         Button button = (Button) findViewById(R.id.button1);
 
-        final Toast toast = Toast.makeText(getApplicationContext(), "Shan's a fag!", Toast.LENGTH_SHORT);
+        final Toast toast = Toast.makeText(getApplicationContext(), "Shan Masala", Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.CENTER_VERTICAL, 0, 0);
 
         button.setOnClickListener(new View.OnClickListener() {
